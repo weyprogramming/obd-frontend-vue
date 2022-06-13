@@ -2,7 +2,7 @@
     <div class="page-sign-in">
         <div class="row justify-content-md-center">
             <div class="col col-lg-4 center">
-                <h1 class="text-center mt-3 ">Registration</h1>
+                <h1 class="text-center mt-3 ">Log In</h1>
                 <form @submit.prevent="submitForm">
                     <div class="form-group mt-3">
                         <label for="emailInput">Enter your username:</label>

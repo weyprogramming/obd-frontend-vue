@@ -6,6 +6,7 @@ import LogIn from '../views/LogIn.vue'
 import MyAccount from '../views/apps/MyAccount.vue'
 import Measurement from '../views/apps/Measurement.vue'
 import Measurements from '../views/apps/Measurements.vue'
+import RaspberryOverview from '../views/apps/RaspberryOverview.vue'
 
 import store from '../store'
 
@@ -54,6 +55,14 @@ const routes = [
     path: '/measurements',
     name: 'Measurements',
     component: Measurements,
+    meta: {
+      requireLogin: true
+    }
+  },
+  {
+    path: '/raspberries',
+    name: 'RaspberryOverview',
+    component: RaspberryOverview,
     meta: {
       requireLogin: true
     }

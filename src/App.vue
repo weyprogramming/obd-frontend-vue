@@ -19,7 +19,7 @@
                 <router-link to="/user-setttings" class="nav-link">User Settings</router-link>
               </li>
               <li class="nav-item">
-                <router-link to="/raspberry-settings" class="nav-link" >Raspberry Settings</router-link>
+                <router-link to="/raspberries" class="nav-link" >Raspberry Settings</router-link>
               </li>
             </ul>
             <ul class="navbar-nav ms-auto">
